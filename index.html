@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js" defer></script>
+</head>
+<body>
+  <header><h1>Library</h1></header>
+  <main>
+    <button class="add-book">+ Add Book</button>
+    <div class="book-container">
+      <!-- <div class="book">
+        <div class="title">hfsjhfshf</div>
+        <div class="author">sdfs</div>
+        <div class="pages">sfdss</div>
+        <div class="read">read</div>
+        <button class="remove-book">&#10060;</button>
+      </div> -->
+    </div>
+  </main>
+  <footer>
+    <p>&copy Sinrithy Vong, All rights resurved</p>
+    <p>Email: sinrithyvong@gmail.com</p>
+  </footer>
+
+  <!-- overlay -->
+  <div class="overlay"></div>
+
+  <!-- dialog -->
+  <dialog>
+    <h2>Add New Book</h2>
+    <form>
+      <input type="text" placeholder="Title" class="title" required>
+      <input type="text" placeholder="Author" class="author" required>
+      <input type="number" placeholder="Pages" min="1" required>
+      <div class="checkbox">
+        <p>Have you read it yet?</p>
+        <input type="checkbox">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <button class="closeDialog"><p>&#10060;</p></button>
+  </dialog>
+
+</body>
+</html>
